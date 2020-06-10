@@ -1,5 +1,5 @@
 img{
-    border: 2px solid silver;
+    border: 2px solid rgb(53, 67, 112);
     width: 300px;
     height: auto;
     float: left;
@@ -19,7 +19,7 @@ h1{
     width: 400px;
 }
 body{
-    background: silver;
+    background: rgb(89, 91, 165);
     font: 24px Helvetica;
 }
 #main{
@@ -32,30 +32,29 @@ body{
 #main article{
     margin: 4px;
     padding: 5px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(132, 0, 255);
     border-radius: 7px;
-    background: burlywood;
+    background: rgb(221, 226, 255);
     flex: 3   1   60%;
     order: 2;
 }
 .awita{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
-    border: 2px solid coral;
-    border-top: 22px solid crimson;
+    border: 2px solid rgb(132, 0, 255);
+    border-top: 22px solid rgb(0, 25, 253);
     padding: 2px;
 }
 #main nav{
     margin: 4px;
     padding: 5px;
-    border: 1px solid mediumorchid;
+    border: 1px solid rgb(132, 0, 255);
     border-radius: 7px;
-    background: moccasin;
+    background: rgb(221, 226, 255);
     flex: 1 6 20%;
     order: 1;
 }
 #main .cuadro p {
-    background-color: silver;
     width: 300px;
     height: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,16 +68,16 @@ h2{
     margin: 0px;
     display: flex;
     justify-content: center;
-    background: silver;
+    background: rgb(123, 162, 235);
     min-height: 30px;
     height: 40px;
 }
 #main aside{
     margin: 4px;
     padding: 5px;
-    border: 1px solid brown;
+    border: 1px solid rgb(132, 0, 255);
     border-radius: 7px;
-    background: burlywood;
+    background: rgb(221, 226, 255);
     flex: 1 6 20%;
     order: 3;
 }
@@ -89,5 +88,5 @@ header, footer{
     min-height: 100px;
     border: 1px solid black;
     border-radius: 7px;
-    background: burlywood;
+    background: rgb(124, 134, 195);
 }
