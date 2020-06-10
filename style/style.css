@@ -1,0 +1,93 @@
+img{
+    border: 2px solid silver;
+    width: 300px;
+    height: auto;
+    float: left;
+}
+nav ul {
+    list-style: none;
+}
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px;
+    width: 400px;
+}
+body{
+    background: silver;
+    font: 24px Helvetica;
+}
+#main{
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row
+}
+#main article{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    background: burlywood;
+    flex: 3   1   60%;
+    order: 2;
+}
+.awita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 2px solid coral;
+    border-top: 22px solid crimson;
+    padding: 2px;
+}
+#main nav{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid mediumorchid;
+    border-radius: 7px;
+    background: moccasin;
+    flex: 1 6 20%;
+    order: 1;
+}
+#main .cuadro p {
+    background-color: silver;
+    width: 300px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 12px;
+    float: left;
+    text-align: center;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background: silver;
+    min-height: 30px;
+    height: 40px;
+}
+#main aside{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid brown;
+    border-radius: 7px;
+    background: burlywood;
+    flex: 1 6 20%;
+    order: 3;
+}
+header, footer{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: burlywood;
+}
